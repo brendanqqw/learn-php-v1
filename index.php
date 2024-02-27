@@ -7,7 +7,8 @@
 </head>
 <body>
     <?php
-        echo "Hello Brendan!";
+        if (true){
+            echo "<p>Some HTML text.</p>";
+        }
     ?>
-</body>
-</html>
+</body></html>
