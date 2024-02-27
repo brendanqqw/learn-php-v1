@@ -7,11 +7,19 @@
 <!-- The closing tag implies a semicolon, and isnt needed for the last
 line in a block of PHP. -->
 
+
+
+
 <?php
     echo "Hello Brendan!";
     echo "Hi".
 ?>
 <!-- Output: Hello Brendan!Hi  -->
+
+
+
+
+
 
 <!-- A "advanced" example if embedding PHP -->
 
@@ -22,5 +30,16 @@ line in a block of PHP. -->
         }
     ?>
 </body>
-
 <!-- Output: Some HTML text. -->
+
+
+
+
+<body>
+    <?php if (true) { ?>
+        <p>Some HTML text.</p> 
+    <?php } ?>
+</body>
+<!-- Output: Some HTML text. -->
+
+

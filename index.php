@@ -6,9 +6,8 @@
     <title>Learn PHP</title>
 </head>
 <body>
-    <?php
-        if (true){
-            echo "<p>Some HTML text.</p>";
-        }
-    ?>
-</body></html>
+    <?php if (true) { ?>
+        <p>Some HTML text.</p> 
+    <?php } ?>
+</body>
+</html>
